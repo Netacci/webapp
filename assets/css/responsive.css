@@ -1,0 +1,277 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+@media all and (min-width:768px) {
+  .all-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 1.125rem;
+  }
+
+  /* achievment starts here */
+  .achievement {
+    background-position: unset;
+  }
+
+  /* Review starts here */
+
+  .review-img1 {
+    left: 16%;
+    top: 5%;
+  }
+
+  .review-img3 {
+    left: 44%;
+    top: 5%;
+  }
+
+  .review-img2 {
+    left: 30%;
+    top: 5%;
+  }
+
+  .review-pic {
+    width: 10%;
+  }
+
+  .quote {
+    width: auto;
+    margin-left: 89%;
+  }
+
+  .username {
+    font-size: 1rem;
+  }
+
+  .surname {
+    font-size: 2rem;
+  }
+
+  .client-review {
+    margin-top: 3rem;
+  }
+
+  .review-wrap {
+    margin-bottom: 0rem;
+  }
+
+
+
+  .sec2::before {
+    left: -22%;
+  }
+
+  /* footer starts here */
+  .media {
+    width: auto;
+  }
+
+  .logo-pic {
+    width: auto;
+  }
+
+  .media {
+    width: 4%;
+  }
+
+  .foot-address {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+  }
+
+  .addy {
+    grid-column: 3;
+    justify-self: start;
+  }
+
+  .tel {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 1.5rem;
+    justify-self: end;
+  }
+
+  .mail {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  .foot-pic {
+    grid-row: 1;
+    grid-column: 2;
+    width: 22%;
+    align-self: center;
+    justify-self: center;
+
+  }
+
+  .top-scroll {
+    display: block;
+    transition: all .3s;
+    position: fixed;
+    pointer-events: none;
+    bottom: 50px;
+    left: 93%;
+    opacity: 0;
+  }
+
+  .top-scroll.activescroll {
+    bottom: 61px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .arrow {
+    animation: scrollup 1s linear 1s infinite;
+  }
+
+  @keyframes scrollup {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(0, 10px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+
+  }
+
+
+}
+
+@media all and (min-width:992px) {
+
+
+  .navbar-collapse {
+    background: none;
+  }
+
+
+  .hero {
+    margin-top: 20%;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 29px;
+
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    line-height: 80px;
+
+  }
+
+  .name-tag {
+    margin-top: 26%;
+    margin-bottom: 9%;
+  }
+
+  .name-text {
+    font-size: 1.5rem;
+  }
+
+  .innername {
+    font-size: 3rem;
+  }
+
+  /* services start here */
+
+  .img-text {
+    font-size: 1.5rem;
+    line-height: 29px;
+  }
+
+  .service-title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .service-text,
+  .review-text,
+  .ach-icon-text {
+    font-size: 1rem;
+    line-height: 19px;
+  }
+
+  .ach-text {
+    font-size: 1rem;
+    line-height: 120.5%;
+  }
+
+  /* services ends here */
+  /* achievement starts here */
+
+  .ach-text {
+    width: 80%;
+  }
+
+  .ach-icon-title {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  /* Review starts here */
+  .review-img1,
+  .review-img2,
+  .review-img3 {
+    width: 8%;
+  }
+
+  .client-review {
+    margin-top: 8rem;
+  }
+
+  .review-wrap {
+    margin-bottom: 5rem;
+  }
+
+  .items-review {
+    margin-bottom: 3rem;
+  }
+
+  .review-pic {
+    width: 55%;
+  }
+
+  /* Contact section starts here */
+  .clip {
+    transform: rotate(-156.07deg);
+    width: 100%;
+    padding-left: 4rem;
+    animation: clipmove 3s linear;
+    width: 85%;
+    height: 79%;
+  }
+
+  @keyframes clipmove {
+    0% {
+      transform: rotate(-156.07deg);
+    }
+
+    50% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(-156.07deg);
+    }
+
+  }
+
+}
+
+@media all and (min-width:1200px) {
+  .addy {
+    width: 80%;
+    margin-right: 7rem;
+    margin-left: -15%;
+  }
+}

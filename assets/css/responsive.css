@@ -1,45 +1,47 @@
 /* MEDIA QUERIES FOR 768PX AND ABOVE */
 /* Only use the breakpoint necessary to your project */
 
-@media all and (min-width:768px) {}
+@media all and (min-width:768px) {
+  .section-wrap {
+    background-position: left 10% top -8%, left -1% bottom -3%, right -20% top 150%;
+    background-size: 42%, 15%, 40%;
+  }
+}
 
 @media all and (min-width:992px) {
   .form-title {
-    font-size: 3.175rem;
+    font-size: 3.188rem;
 
   }
 
-  .login-text {
-    font-size: 1rem;
+  .form {
+    margin-left: 7rem !important;
+  }
+
+  .login-text,
+  .rem {
+    font-size: 1.5rem;
   }
 
   .btn-submit {
-    font-size: 1.089rem;
+    font-size: 1.5rem;
   }
 
   input::placeholder {
-    font-size: 0.75rem;
+    font-size: 1.125rem;
   }
 
   .reset-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .sign-up,
   .alt {
-    font-size: 1.125rem;
-  }
-
-
-  .iconify {
-    color: var(--blue-color);
     font-size: 1.5rem;
   }
 
 
-  .copy-text {
-    font-size: 0.75rem;
-  }
+
 
 }
 

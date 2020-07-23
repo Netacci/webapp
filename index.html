@@ -17,10 +17,16 @@
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <!-- CSS links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/animate.min.css" />
     <link rel="stylesheet" href="./assets/css/aos.css" />
@@ -43,25 +49,20 @@
     <section class="content">
       <div class="section-wrap overflow-auto">
         <div class="container">
-          <div class="d-flex">
+          <div class="d-flex px-3 py-3 px-md-0 py-md-0">
             <form
-              class="col-12 col-md-7 col-lg-5 form mt-5 py-md-5 px-md-4 ml-md-5 mb-5"
+              class="col-12 col-md-7 col-lg-6 form mt-5 px-4 py-4 py-md-5 px-md-5 ml-md-5 mb-5"
             >
               <h1 class="form-title mt-5">
-                Hello,<br />
-                Welcome back
+                Hello, Welcome back
               </h1>
               <p class="login-text mt-5">Login to manage your account</p>
 
               <div class="form-group">
-                <span
-                  class="iconify input-icon"
-                  data-icon="mdi:email"
-                  data-inline="false"
-                ></span>
                 <input
                   type="email"
-                  class="form-control mt-4"
+                  name="email"
+                  class="form-control mt-4 pl-lg-5"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Email "
@@ -70,10 +71,13 @@
               <div class="form-group">
                 <input
                   type="password"
-                  class="form-control"
+                  name="password"
+                  id="password"
+                  class="form-control pl-lg-5"
                   id="exampleInputPassword1"
                   placeholder="Password"
                 />
+                <i class="fas fa-eye pa-eye" id="togglePassword"></i>
               </div>
               <div class="form-group form-check">
                 <input
@@ -81,12 +85,12 @@
                   class="form-check-input"
                   id="exampleCheck1"
                 />
-                <label class="form-check-label" for="exampleCheck1"
+                <label class="form-check-label rem" for="exampleCheck1"
                   >Remember me</label
                 >
               </div>
               <div class="button-wrap d-flex mt-5">
-                <div class="button col-6">
+                <div class="button col-7">
                   <button type="submit" class="btn btn-submit">
                     Sign In
                   </button>
@@ -97,25 +101,25 @@
                 Don't have an account?
                 <span class="inner-sign"> <a href="">Sign up</a> </span>
               </p>
-              <p class="alt text-uppercase text-center mt-4">or</p>
+              <!-- <p class="alt text-uppercase text-center mt-4">or</p>
               <div class="socials text-center mt-4">
                 <a class="a-link" href="www.facebook.com">
                   <span
-                    class="iconify mr-3"
+                    class="iconify mr-3 medias"
                     data-icon="jam-facebook-circle"
                     data-inline="false"
                   ></span>
                 </a>
                 <a class="a-link" href="www.google.com">
                   <span
-                    class="iconify mr-3"
+                    class="iconify mr-3 medias"
                     data-icon="jam:google-circle"
                     data-inline="false"
                   ></span>
                 </a>
                 <a class="a-link" href="www.instagram.com">
                   <span
-                    class="iconify"
+                    class="iconify medias"
                     data-icon="typcn:social-instagram-circular"
                     data-inline="false"
                   ></span>
@@ -124,7 +128,7 @@
               <div class="copy d-flex justify-content-around mt-5 mb-4">
                 <a class="copy-text" href="">Terms & Conditions</a>
                 <a class="copy-text" href="">Privacy Policy</a>
-              </div>
+              </div> -->
             </form>
           </div>
         </div>

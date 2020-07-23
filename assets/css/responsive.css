@@ -3,8 +3,8 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top -8%, left -1% bottom -3%, right -20% top 150%;
-    background-size: 42%, 15%, 40%;
+    background-position: left 10% top -8%, left -1% bottom -3%, right -20% top 230%;
+    background-size: 42%, 15%, 38%;
   }
 }
 
@@ -20,7 +20,7 @@
 
   .login-text,
   .rem {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .btn-submit {

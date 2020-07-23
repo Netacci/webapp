@@ -126,7 +126,6 @@ input::placeholder {
   font-family: var(--text-font);
   font-weight: normal;
   font-size: 1.125rem;
-  line-height: 23px;
   color: var(--text-color);
 }
 

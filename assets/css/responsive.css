@@ -3,12 +3,17 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top 540%;
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -106px;
     background-size: 42%, 15%, 35%;
   }
 }
 
 @media all and (min-width:992px) {
+  .section-wrap {
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -153px;
+    background-size: 42%, 15%, 35%;
+  }
+
   .btnn {
     font-size: 1rem;
   }
@@ -50,8 +55,16 @@
 
 
 
-
 }
+
+@media all and (min-width:1200px) {
+
+  .section-wrap {
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -210px;
+    background-size: 42%, 15%, 35%;
+  }
+}
+
 
 @media all and (min-width:2560px) {
   .form-full {

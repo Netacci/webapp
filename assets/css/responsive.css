@@ -3,12 +3,16 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top -8%, left -1% bottom -3%, right -20% top 230%;
-    background-size: 42%, 15%, 38%;
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top 540%;
+    background-size: 42%, 15%, 35%;
   }
 }
 
 @media all and (min-width:992px) {
+  .btnn {
+    font-size: 1rem;
+  }
+
   .form-title {
     font-size: 3.188rem;
 
@@ -16,6 +20,10 @@
 
   .form {
     margin-left: 7rem !important;
+  }
+
+  .w-40 {
+    width: 48%;
   }
 
   .login-text,
@@ -45,4 +53,8 @@
 
 }
 
-@media all and (min-width:1200px) {}
+@media all and (min-width:2560px) {
+  .form-full {
+    margin-top: 10rem;
+  }
+}

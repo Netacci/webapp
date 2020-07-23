@@ -35,6 +35,19 @@
   overflow: auto;
 }
 
+.btnn {
+  height: 59px;
+  background: var(--blue-color);
+  color: var(--white-color);
+  font-size: 0.875rem;
+}
+
+.w-40 {
+  width: 71%;
+}
+
+/* form section */
+
 .form {
   background: var(--white-color);
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
@@ -51,16 +64,17 @@
 
 }
 
+.login-text {
+  line-height: 30px;
+}
+
 .login-text,
 .rem {
   font-family: var(--text-font);
   font-weight: normal;
   font-size: 1rem;
-  line-height: 30px;
   color: var(--text-color);
 }
-
-
 
 .btn-submit {
   color: var(--white-color);
@@ -89,6 +103,7 @@
 .button {
   width: 100%;
 }
+
 
 .form-control {
   width: 100%;

@@ -33,11 +33,11 @@
 
   .login-text,
   .rem {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .btn-submit {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   input::placeholder {
@@ -45,12 +45,12 @@
   }
 
   .reset-text {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
   }
 
   .sign-up,
   .alt {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
   }
 
 

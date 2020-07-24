@@ -127,7 +127,8 @@
 input::placeholder {
   font-family: var(--text-font);
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
+  /* font-size: 1.125rem; */
   color: var(--text-color);
 }
 
@@ -170,7 +171,7 @@ input:-webkit-autofill:active {
 .alt {
   font-family: var(--text-font);
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 21px;
   color: var(--text-color);
 
@@ -178,22 +179,4 @@ input:-webkit-autofill:active {
 
 .inner-sign {
   color: var(--blue-color);
-}
-
-.medias {
-  color: var(--blue-color);
-  font-size: 1.5rem;
-}
-
-.a-link,
-.a-link:hover {
-  text-decoration: none;
-}
-
-.copy-text {
-  font-family: var(--text-font);
-  font-weight: normal;
-  font-size: 0.75rem;
-  line-height: 14px;
-  color: var(--text-color);
 }

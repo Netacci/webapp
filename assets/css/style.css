@@ -67,7 +67,8 @@
 }
 
 .table {
-  box-shadow: 0.520398px 1.0408px 10.408px rgba(0, 0, 0, 0.1)
+  box-shadow: 0.520398px 1.0408px 10.408px rgba(0, 0, 0, 0.1);
+  background: var(--white-color);
 }
 
 .table2 {

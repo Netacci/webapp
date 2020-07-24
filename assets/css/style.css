@@ -91,6 +91,14 @@
   line-height: 26px;
 }
 
+.btn-icons {
+  margin-top: -3px;
+}
+
+.btn-icon {
+  margin-left: -16px;
+}
+
 .btn:hover {
   background: var(--hover);
   color: var(--white-color);

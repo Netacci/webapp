@@ -3,24 +3,45 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top -8%, left -1% bottom -3%, right -20% top 150%;
-    background-size: 42%, 15%, 40%;
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -106px;
+    background-size: 42%, 15%, 35%;
   }
+
 }
 
 @media all and (min-width:992px) {
-  .form-title {
-    font-size: 3.188rem;
+  .section-wrap {
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -153px;
+    background-size: 42%, 15%, 35%;
+  }
+
+  .appr-text {
+    font-size: 2.517rem;
+    line-height: 59px;
+  }
+
+  .appr-p {
+    font-size: 1.5rem;
+  }
+
+  /* Table section starts here */
+
+  .adv-tex {
+    font-size: 1.659rem;
 
   }
 
-  .form {
-    margin-left: 7rem !important;
+  .mtt-5 {
+    margin-top: 6rem;
+  }
+
+  .w-70 {
+    width: 90%;
   }
 
   .login-text,
   .rem {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .btn-submit {
@@ -45,4 +66,9 @@
 
 }
 
-@media all and (min-width:1200px) {}
+@media all and (min-width:1200px) {
+  .section-wrap {
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -210px;
+    background-size: 42%, 15%, 35%;
+  }
+}

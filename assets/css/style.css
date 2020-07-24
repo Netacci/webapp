@@ -36,7 +36,6 @@
 }
 
 .btnn {
-  height: 59px;
   background: var(--blue-color);
   color: var(--white-color);
   font-size: 0.875rem;

@@ -67,6 +67,11 @@
 
 
 @media all and (min-width:2560px) {
+  .section-wrap {
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -387px;
+    background-size: 42%, 15%, 35%;
+  }
+
   .form-full {
     margin-top: 10rem;
   }

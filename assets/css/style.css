@@ -39,6 +39,9 @@
   background: var(--blue-color);
   color: var(--white-color);
   font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--text-font);
+  padding: 1rem;
 }
 
 .w-40 {

@@ -41,91 +41,118 @@
   </head>
   <body>
     <!-- main content begins -->
-    <section class="content">
-      <div class="section-wrap overflow-auto">
-        <div class="container">
-          <div class="d-flex px-3 py-3 px-md-0 py-md-0 mtt-5">
-            <!-- left write up -->
-            <div class="appr-page d-none d-lg-block col-5 mt-5">
-              <h1 class="appr-text">
-                Thank you for signing up!
-              </h1>
-              <p class="appr-p mt-5">
-                We are setting up your account in the background. Meanwhile, let
-                us know the type of account you would like to create
-              </p>
-              <p class="appr-p mt-5 w-70">
-                Why? We need your the right information to personalise the
-                onboarding process
-              </p>
-            </div>
-            <!-- left write up ends -->
-            <!-- right section starts -->
-            <div class="acct-type mx-auto mt-5 col-lg-7">
-              <h1 class="appr-text text-center">
-                Account Type
-              </h1>
-              <div
-                class="acct-section d-flex justify-content-center flex-column flex-md-row mt-4"
+    <div class="wrapper d-flex">
+      <!-- left section up -->
+      <section class="content col-7 section-wrap px-4 pl-5">
+        <div class="logo p-5">
+          <img src="./assets/images/Webapp.svg" alt="" class="web-logo" />
+        </div>
+        <div class="container px-4 pl-5">
+          <form class="form mb-5">
+            <h1 class="form-title text-center">
+              Hello, Welcome back
+            </h1>
+            <div
+              class="social-signin d-flex justify-content-lg-between mt-4 flex-column flex-lg-row"
+            >
+              <a
+                href=""
+                class="btn btnn w-40 btn-google d-flex justify-content-center align-items-center h-100 mb-3 my-lg-0"
               >
-                <table class="table table-bordered col-md-5 mr-md-3">
-                  <thead>
-                    <tr>
-                      <th
-                        scope="col"
-                        class="py-3 text-uppercase text-center adv-tex"
-                      >
-                        Advertiser
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="d-flex flex-column pp-2">
-                        <button class="btn btn-advert mt-2 mx-auto">
-                          Company
-                          <span
-                            class="iconify arrow ml-3"
-                            data-icon="gg:arrow-long-right"
-                            data-inline="false"
-                          ></span>
-                        </button>
-                        <button class="btn btn-advert mt-4 mb-4 mx-auto">
-                          Individual
-                        </button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="table table-bordered col-md-5 table2">
-                  <thead>
-                    <tr>
-                      <th
-                        scope="col"
-                        class="py-3 text-uppercase text-center adv-tex"
-                      >
-                        publisher
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="d-flex flex-column pp-2">
-                        <button class="btn btn-advert mt-2 mbb-5 mx-auto">
-                          Publisher
-                        </button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                <span
+                  class="iconify btn-icon btn-icons pr-1"
+                  data-icon="fa-brands:google-plus-square"
+                  data-inline="false"
+                ></span>
+                Sign in using Google
+              </a>
+              <a
+                href=""
+                class="btn btn-fb w-40 btnn d-flex justify-content-center align-items-center h-100 mb-3 my-lg-0"
+              >
+                <span
+                  class="iconify btn-icons pr-1"
+                  data-icon="entypo-social:facebook"
+                  data-inline="false"
+                ></span>
+                Sign in using Facebook
+              </a>
             </div>
-            <!-- right section ends -->
+            <p class="login-text mt-5">Login to manage your account</p>
+
+            <div class="form-group">
+              <label for="email" class="label">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password" class="label">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-control"
+              />
+              <i class="fas fa-eye pa-eye" id="togglePassword"></i>
+            </div>
+            <div class="form-group form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label rem" for="exampleCheck1"
+                >Remember me</label
+              >
+            </div>
+            <div class="button-wrap d-flex mt-5 justify-content-between">
+              <div class="button col-6 pl-0">
+                <button type="submit" class="btn btn-submit">
+                  Sign In
+                </button>
+              </div>
+              <a href="" class="reset-text mt-3">Forgot Password?</a>
+            </div>
+            <p class="sign-up mt-5 text-center">
+              Don't have an account?
+              <span class="inner-sign"> <a href="">Sign up</a> </span>
+            </p>
+          </form>
+        </div>
+      </section>
+      <!-- left section ends -->
+      <!-- right section starts -->
+      <section class="col-5 content2 section-wrap2">
+        <div class="container mt-17">
+          <div class="right-side mx-auto mt-5">
+            <div class="title d-flex flex-row justify-content-center">
+              <span
+                class="iconify info-icon mt-3"
+                data-icon="ion:information-circle"
+                data-inline="false"
+              ></span>
+              <h1 class="left-title">DID YOU KNOW?</h1>
+            </div>
+            <p class="left-text text-center">
+              There are over 200 Leading influencer marketing platforms for
+              basic campaign and dubious data, Then there is
+              <span class="inner-left-text">WebApp</span>
+            </p>
+            <div class="btn-sign text-center">
+              <button type="submit" class="btn signup-btn btn-submit">
+                Sign Up
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- right section ends -->
+    </div>
 
     <!-- All javascript at the bottom of the page for fast page load -->
     <!-- Jquery -->

@@ -3,7 +3,7 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -106px;
+    background-position: left 10% top -13%, left -1% bottom -3%;
     background-size: 42%, 15%, 35%;
   }
 
@@ -11,46 +11,41 @@
 
 @media all and (min-width:992px) {
   .section-wrap {
-    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -153px;
-    background-size: 42%, 15%, 35%;
+    background-position: left 70% top -8%, left -1% bottom -3%;
+    background-size: 80%, 15%, 35%;
   }
 
-  .appr-text {
-    font-size: 2.517rem;
-    line-height: 59px;
+  .section-wrap2 {
+    background-position: right -13% top -104px;
+    background-size: 65%;
   }
 
-  .appr-p {
-    font-size: 1.5rem;
-  }
-
-  /* Table section starts here */
-
-  .adv-tex {
-    font-size: 1.659rem;
-
-  }
-
-  .mtt-5 {
-    margin-top: 6rem;
-  }
-
-  .w-70 {
-    width: 90%;
-  }
-
-  .login-text,
-  .rem {
+  .btnn {
     font-size: 1rem;
   }
 
-  .btn-submit {
+  .form-title {
+    font-size: 3.188rem;
+
+  }
+
+  .w-40 {
+    width: 48%;
+  }
+
+  .login-text {
     font-size: 1.5rem;
   }
 
-  input::placeholder {
-    font-size: 1.125rem;
+  .label {
+    font-size: 1.5rem;
   }
+
+
+  .rem {
+    font-size: 1.5rem;
+  }
+
 
   .reset-text {
     font-size: 1.5rem;
@@ -61,14 +56,26 @@
     font-size: 1.5rem;
   }
 
-
-
+  .btn {
+    font-size: 1.5rem;
+  }
 
 }
 
 @media all and (min-width:1200px) {
+  .section-wrap2 {
+    background-position: right -13% top -150px;
+    background-size: 65%;
+  }
+}
+
+@media all and (min-width:2560px) {
   .section-wrap {
-    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -210px;
+    background-position: left 10% top -13%, left -1% bottom -3%, right -13% top -387px;
     background-size: 42%, 15%, 35%;
+  }
+
+  .form-full {
+    margin-top: 10rem;
   }
 }

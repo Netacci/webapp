@@ -7,6 +7,14 @@
     background-size: 42%, 15%, 35%;
   }
 
+  .left-title {
+    font-size: 2rem;
+  }
+
+  .left-text {
+    font-size: 1.125rem;
+  }
+
 }
 
 @media all and (min-width:992px) {

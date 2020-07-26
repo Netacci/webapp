@@ -59,6 +59,11 @@
   font-weight: 600;
   font-family: var(--text-font);
   padding: 1rem;
+
+}
+
+.btn {
+  transition: all .3s linear;
 }
 
 .btn-google {
@@ -135,11 +140,6 @@
   outline: 0;
   box-shadow: none;
 }
-
-.button {
-  width: 100%;
-}
-
 
 .form-control {
   width: 100%;

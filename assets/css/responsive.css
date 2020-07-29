@@ -6,25 +6,33 @@
     background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
     background-size: 42%, 15%, 25%;
   }
+
+  /* Signup section */
+  .section-wrap-signup {
+    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+  }
+
 }
 
 @media all and (min-width:992px) {
   .section-wrap {
     background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
-    background-size: 42%, 15%, 25%;
+
   }
 
-  .btnn {
+  .section-wrap-signup {
+    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+
+  }
+
+  .btnn,
+  .btn-submit {
     font-size: 1rem;
   }
 
   .form-title {
     font-size: 3.188rem;
 
-  }
-
-  .label {
-    font-size: 1.125rem;
   }
 
   .form {
@@ -39,25 +47,13 @@
     font-size: 1.5rem;
   }
 
-
-  .rem {
-    font-size: 1.125rem;
-  }
-
-  .btn-submit {
-    font-size: 1rem;
-  }
-
-  .reset-text {
-    font-size: 1.125rem;
-  }
-
+  .rem,
   .sign-up,
-  .alt {
+  .alt,
+  .reset-text,
+  .label {
     font-size: 1.125rem;
   }
-
-
 
 }
 
@@ -65,7 +61,10 @@
 
   .section-wrap {
     background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
-    background-size: 42%, 15%, 25%;
+  }
+
+  .section-wrap-signup {
+    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
   }
 }
 
@@ -73,10 +72,13 @@
 @media all and (min-width:2560px) {
   .section-wrap {
     background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
-    background-size: 42%, 15%, 25%;
   }
 
   .form-full {
     margin-top: 10rem;
+  }
+
+  .section-wrap-signup {
+    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
   }
 }

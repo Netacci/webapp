@@ -14,6 +14,7 @@
   --hover: #2C284F;
   --border-color: #F8F8F8;
   --faint-grey: #D0C9D6;
+  --hr-color: #CECECE;
 }
 
 .content {
@@ -107,7 +108,7 @@ a:hover {
   color: var(--white-color);
   background: var(--purple-color);
   width: 127.79px;
-  height: 55.05px;
+  height: 50px;
   border-radius: 5px;
   transition: all .3s linear;
   font-family: var(--text-font);
@@ -204,4 +205,37 @@ input:-webkit-autofill:active {
 
 .inner-sign {
   color: var(--purple-color);
+}
+
+/* Signup css */
+.section-wrap-signup {
+  background-image: url(../images/Ellipse1.svg), url(../images/Ellipse2.svg), url(../images/illus-signup.svg);
+  background-position: left 10% top -1%, left -1% bottom -3%, right 0% top 0%;
+}
+
+.w-40 {
+  width: 100%;
+}
+
+.division {
+  width: 100%;
+  max-width: 560px;
+}
+
+hr {
+  border: 1px solid var(--hr-color);
+}
+
+.or {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.terms {
+  font-family: var(--text-font);
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  line-height: 16px;
 }

@@ -79,6 +79,14 @@
 
 }
 
+.label {
+  font-family: var(--text-font);
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 30px;
+}
+
 .login-text {
   line-height: 30px;
 }
@@ -145,14 +153,6 @@
 
 }
 
-input::placeholder {
-  font-family: var(--text-font);
-  font-weight: normal;
-  font-size: 0.875rem;
-  /* font-size: 1.125rem; */
-  color: var(--text-color);
-}
-
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -177,7 +177,7 @@ input:-webkit-autofill:active {
 
 .form-group i {
   position: absolute;
-  top: 43%;
+  top: 60%;
 }
 
 .reset-text {

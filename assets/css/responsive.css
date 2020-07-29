@@ -23,6 +23,10 @@
 
   }
 
+  .label {
+    font-size: 1.125rem;
+  }
+
   .form {
     margin-left: 7rem !important;
   }
@@ -42,10 +46,6 @@
 
   .btn-submit {
     font-size: 1rem;
-  }
-
-  input::placeholder {
-    font-size: 1.125rem;
   }
 
   .reset-text {

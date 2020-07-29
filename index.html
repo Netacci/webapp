@@ -60,13 +60,65 @@
         <div class="container px-4 pl-4 pl-md-5 mt-5 mt-17">
           <form class="form mb-5 mt-5" method="POST" action="">
             <div class="form-group">
-              <label for="email" class="label">Company Name</label>
+              <label for="companyname" class="label">Company Name</label>
               <input
                 type="text"
-                name="company"
+                name="companyname"
                 class="form-control"
-                id="company"
-                aria-describedby="emailHelp"
+                id="companyname"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="companyaddress" class="label">Company Address</label>
+              <input
+                type="text"
+                name="companyaddress"
+                class="form-control"
+                id="companyaddress"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="companyemail" class="label">Company Email</label>
+              <input
+                type="text"
+                name="companyemail"
+                class="form-control"
+                id="companyemail"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="companynumber" class="label"
+                >Company Phone Number</label
+              >
+              <input
+                type="tel"
+                name="companynumber"
+                class="form-control"
+                id="companynumber"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="companystate" class="label">Company State</label>
+              <input
+                type="text"
+                name="companystate"
+                class="form-control"
+                id="companystate"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="companycountry" class="label">Company Country</label>
+              <input
+                type="text"
+                name="companycountry"
+                class="form-control"
+                id="companycountry"
+                required
               />
             </div>
             <div class="form-group">
@@ -78,38 +130,21 @@
                 id="companysize"
               >
                 <option value="none" selected disabled hidden></option>
-                <option value="Small">Small</option>
-                <option value="Medium">Medium</option>
-                <option value="Large">Large</option>
-                <option value="Extra-large">Extra-large</option>
+                <option value="Small">1-10</option>
+                <option value="Medium">10-50</option>
+                <option value="Large">50-100</option>
+                <option value="Extra-large">100-1000</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="State" class="label">State</label>
-              <select
+              <label for="companyposition" class="label">Job Title</label>
+              <input
+                type="text"
+                name="companypostion"
                 class="form-control"
-                aria-describedby="State"
-                name="State"
-                id="state"
-              >
-                <option value="none" selected disabled hidden></option>
-                <option value="Option1">Option1</option>
-                <option value="Option2">Option2</option>
-                <option value="Option3">Option3</option>
-                <option value="Option4">Option4</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="Country" class="label">Country</label>
-              <select
-                class="form-control"
-                aria-describedby="Country"
-                name="Country"
-                id="country"
-              >
-                <option value="none" selected disabled hidden></option>
-                <option value="Option1">Option1</option>
-              </select>
+                id="companyposition"
+                required
+              />
             </div>
 
             <div class="button d-flex justify-content-between">

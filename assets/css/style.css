@@ -24,7 +24,7 @@
 .section-wrap {
   background-image: url(../images/Ellipse1.svg), url(../images/Ellipse2.svg), url(../images/illus.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: left 10% top -1%, left -1% bottom -3%, right 0% top 0%;
+  background-position: left 10% top -1%, left -1% bottom -3%, right -8px top -1px;
   background-size: 56%, 42%, 52%;
   background-attachment: fixed;
   min-height: 100vh;

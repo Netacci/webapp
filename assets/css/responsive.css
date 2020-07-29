@@ -3,14 +3,14 @@
 
 @media all and (min-width:768px) {
   .section-wrap {
-    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+    background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
     background-size: 42%, 15%, 25%;
   }
 }
 
 @media all and (min-width:992px) {
   .section-wrap {
-    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+    background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
     background-size: 42%, 15%, 25%;
   }
 
@@ -64,7 +64,7 @@
 @media all and (min-width:1200px) {
 
   .section-wrap {
-    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+    background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
     background-size: 42%, 15%, 25%;
   }
 }
@@ -72,7 +72,7 @@
 
 @media all and (min-width:2560px) {
   .section-wrap {
-    background-position: left 10% top 0%, left -1% bottom -3%, right 0% top 0px;
+    background-position: left 10% top 0%, left -1% bottom -3%, right -8px top -1px;
     background-size: 42%, 15%, 25%;
   }
 

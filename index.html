@@ -15,7 +15,7 @@
     />
     <meta name="keywords" content="" />
     <!-- Website title-->
-    <title>Webapp</title>
+    <title>Sign Up | Envato App</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
@@ -44,11 +44,12 @@
         <div class="container">
           <div class="d-flex px-3 py-3 px-md-0 py-md-0 form-full">
             <form
-              class="col-12 col-md-7 form mt-5 px-4 py-4 py-md-5 px-md-5 ml-md-5 mb-5"
+              class="col-12 col-md-7 form mt-5 px-4 pt-4 pt-md-5 px-md-5 ml-md-5 mb-5"
             >
               <h1 class="form-title mt-5 text-center">
-                Hello, Welcome back
+                Create Account
               </h1>
+
               <div
                 class="social-signin d-flex justify-content-lg-between mt-4 flex-column flex-lg-row"
               >
@@ -58,7 +59,7 @@
                     data-icon="flat-color-icons:google"
                     data-inline="false"
                   ></span>
-                  Sign in with Google
+                  Sign Up with Google
                 </button>
                 <button
                   class="btn btnn w-40 mx-auto btn-media mx-lg-0 mt-4 mt-lg-0"
@@ -68,52 +69,92 @@
                     data-icon="logos:facebook"
                     data-inline="false"
                   ></span>
-                  Sign in with Facebook
+                  Sign Up with Facebook
                 </button>
               </div>
-              <p class="login-text mt-5">Login to manage your account</p>
+              <div class="division position-relative w-100 my-4">
+                <hr class="w-100" />
+                <div class="position-absolute px-3 bg-white or">
+                  OR
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6 mb-3">
+                  <label for="firstname" class="label">First Name</label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    class="form-control"
+                    id="firstname"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6 mb-3">
+                  <label for="lastname" class="label">Last Name</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    class="form-control"
+                    id="lastname"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="phonenumber" class="label">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phonenumber"
+                  class="form-control"
+                  id="phonenumber"
+                  required
+                />
+              </div>
 
-              <div class="form-group">
+              <div class="form-group mb-3">
+                <label for="email" class="label">Email</label>
                 <input
                   type="email"
                   name="email"
-                  class="form-control mt-4"
+                  class="form-control"
                   id="email"
                   aria-describedby="emailHelp"
-                  placeholder="Email "
+                  required
                 />
               </div>
               <div class="form-group">
+                <label for="password" class="label">Password</label>
                 <input
                   type="password"
                   name="password"
                   id="password"
                   class="form-control"
-                  placeholder="Password"
+                  required
                 />
                 <i class="fas fa-eye pa-eye" id="togglePassword"></i>
               </div>
-              <div class="form-group form-check">
+              <div class="form-group mb-3 form-check">
                 <input
                   type="checkbox"
                   class="form-check-input"
                   id="exampleCheck1"
+                  required=""
                 />
-                <label class="form-check-label rem" for="exampleCheck1"
-                  >Remember me</label
+                <label class="terms" for="exampleCheck1"
+                  >By creating an account you agree to the
+                  <a href="#" class="inner-sign">terms of use</a> and our
+                  <a href="#" class="inner-sign">privacy policy</a></label
                 >
               </div>
-              <div class="button-wrap d-flex mt-5 justify-content-between">
-                <div class="button col-6 pl-0">
-                  <button type="submit" class="btn btn-submit">
-                    Sign In
-                  </button>
-                </div>
-                <a href="" class="reset-text mt-3">Forgot Password?</a>
+
+              <div class="button text-center mt-2">
+                <button type="submit" class="btn btn-submit">
+                  Sign Up
+                </button>
               </div>
-              <p class="sign-up mt-5 text-center">
-                Don't have an account?
-                <span> <a class="inner-sign" href="">Sign up</a> </span>
+              <p class="sign-up mt-3 text-center pb-3">
+                Already have an account?
+                <span> <a class="inner-sign" href="">Sign In</a> </span>
               </p>
             </form>
           </div>

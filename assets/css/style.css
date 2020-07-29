@@ -10,8 +10,8 @@
   --white-color: #fff;
   --title-color: #181818;
   --text-color: #7C7C7C;
-  --blue-color: #0075FF;
-  --hover: #0052B3;
+  --purple-color: #362F74;
+  --hover: #2C284F;
   --border-color: #F8F8F8;
   --faint-grey: #D0C9D6;
 }
@@ -24,7 +24,7 @@
 .section-wrap {
   background-image: url(../images/Ellipse1.svg), url(../images/Ellipse2.svg), url(../images/illus.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: left 10% top -1%, left -1% bottom -3%, right -13% top -5%;
+  background-position: left 10% top -1%, left -1% bottom -3%, right 0% top 0%;
   background-size: 56%, 42%, 52%;
   background-attachment: fixed;
   min-height: 100vh;
@@ -36,13 +36,21 @@
 }
 
 .btnn {
-  background: var(--blue-color);
+  background: var(--purple-color);
   color: var(--white-color);
   font-size: 0.875rem;
   font-weight: 600;
   font-family: var(--text-font);
   padding: 1rem;
+  transition: all .3s linear;
 }
+
+.btn-media {
+  border: 1.25387px solid var(--purple-color);
+  background: var(--white-color);
+  color: var(--purple-color);
+}
+
 
 .w-40 {
   width: 100%;
@@ -85,7 +93,7 @@
 
 .btn-submit {
   color: var(--white-color);
-  background: var(--blue-color);
+  background: var(--purple-color);
   width: 127.79px;
   height: 55.05px;
   border-radius: 5px;
@@ -177,7 +185,7 @@ input:-webkit-autofill:active {
   font-weight: 500;
   font-size: 1rem;
   line-height: 24px;
-  color: var(--blue-color);
+  color: var(--purple-color);
 }
 
 .sign-up,
@@ -191,5 +199,5 @@ input:-webkit-autofill:active {
 }
 
 .inner-sign {
-  color: var(--blue-color);
+  color: var(--purple-color);
 }
